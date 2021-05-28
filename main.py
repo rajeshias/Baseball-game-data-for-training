@@ -22,7 +22,7 @@ count = 0
 for row in rows:
     if row.find_all('a')[-1].text == "Boxscore":
         games.append(row)
-nos = int(input(f'How many games({len(games)}) do you get(from top)? : '))
+nos = int(input(f'How many games({len(games)}) to get(from top)? : '))
 for game in tqdm(games[:nos]):
     count += 1
     gamelink = 'https://www.baseball-reference.com' + game.find_all('a')[-1]['href']
