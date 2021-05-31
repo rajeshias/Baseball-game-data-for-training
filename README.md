@@ -1,7 +1,7 @@
 # Baseball-game-data-for-training
 
 Required libraries:
-bs4 - BeautifulSoup
-tqdm
+<li>bs4 - BeautifulSoup</li>
+<li>tqdm</li>
 
-Run the main.py to get the data in csv
+#Run the main.py to get the data in csv
